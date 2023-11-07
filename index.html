@@ -67,6 +67,9 @@
     .block img {
       margin-right: 12px;
     }
+    .w-full {
+      width: 100%;
+    }
     .section1 {
       background: linear-gradient(180deg, #fffdf0 0%, #ffef9d 100%);
     }
@@ -324,7 +327,7 @@
       line-height: 20px;
     }
   </style>
-  <body class="">
+  <body>
     <section
       class="section1 position-relative"
       style="padding-top: 240px; padding-bottom: 235px"
@@ -346,7 +349,7 @@
           嘉康利 睡GABA飲 <br />
           快充上市
         </h1>
-        <h4 class="text-center" style="width: 50%; margin-bottom: 168px">
+        <h4 class="text-center position-relative z-1" style="width: 50%; margin-bottom: 168px">
           <div style="margin-bottom: 31px">\ the best /</div>
           <div style="padding-top: 36px; padding-bottom: 36px">
             <div>您有多久</div>
@@ -354,34 +357,34 @@
             <div>快充模式即刻啟動</div>
           </div>
         </h4>
-      </div>
-      <div class="d-flex">
-        <div class="position-relative" style="width: 36%">
-          <img
-            src="./img/section1/starlight.png"
-            alt="starlight"
-            class="position-absolute left-0 top-0"
-          />
-          <h2 class="text-center z-1 position-relative">方 便</h2>
-          <h3 class="text-center">睡前30分鐘 迅速補充</h3>
-        </div>
-        <div class="position-relative" style="width: 36%">
-          <img
-            src="./img/section1/starlight.png"
-            alt="starlight"
-            class="position-absolute left-0 top-0"
-          />
-          <h2 class="text-center z-1 position-relative">嚴 選</h2>
-          <h3 class="text-center">複合植萃成分</h3>
-        </div>
-        <div class="position-relative" style="width: 36%">
-          <img
-            src="./img/section1/starlight.png"
-            alt="starlight"
-            class="position-absolute left-0 top-0"
-          />
-          <h2 class="text-center z-1 position-relative">安 全</h2>
-          <h3 class="text-center">100%安心品質保證</h3>
+        <div class="row">
+          <div class="position-relative col" style="width: 36%">
+            <img
+              src="./img/section1/starlight.png"
+              alt="starlight"
+              class="position-absolute left-0 top-0 w-full"
+            />
+            <h2 class="text-center z-1 position-relative">方 便</h2>
+            <h3 class="text-center">睡前30分鐘 迅速補充</h3>
+          </div>
+          <div class="position-relative col" style="width: 36%">
+            <img
+              src="./img/section1/starlight.png"
+              alt="starlight"
+              class="position-absolute left-0 top-0 w-full"
+            />
+            <h2 class="text-center z-1 position-relative">嚴 選</h2>
+            <h3 class="text-center">複合植萃成分</h3>
+          </div>
+          <div class="position-relative col" style="width: 36%">
+            <img
+              src="./img/section1/starlight.png"
+              alt="starlight"
+              class="position-absolute left-0 top-0 w-full"
+            />
+            <h2 class="text-center z-1 position-relative">安 全</h2>
+            <h3 class="text-center">100%安心品質保證</h3>
+          </div>
         </div>
       </div>
     </section>
@@ -413,7 +416,7 @@
           CN109363966A / CN109115917B / CN109896971B
         </h3>
       </div>
-      <img src="./img/section3/credential.png" alt="" />
+      <img src="./img/section3/credential.png" alt="credential" style="width: 100%" />
     </section>
     <section class="section4 position-relative">
       <img
@@ -456,33 +459,37 @@
     </section>
     <section class="section6">
       <div class="container" style="padding-top: 200px; padding-bottom: 175px">
-        <div class="section6__block" style="margin-bottom: 488px">
-          <img src="./img/section6/composition-1.png" alt="composition-1" />
-          <div>
-            <div class="section6__title">
-              <span>GABA</span>
-              <img src="./img/section6/heart.png" alt="heart" />
-              <span>洋甘菊</span>
-            </div>
-            <h4 class="section6__subtitle">相親相愛，相輔相成</h4>
-            <div class="section6__content">
-              <div>
-                <img src="./img/dot.png" alt="dot" class="me-3" />
-                <span>GABA最佳隊友最強輔助</span>
+        <div class="section6__block row" style="margin-bottom: 488px">
+          <div class="col">
+            <img src="./img/section6/composition-1.png" alt="composition-1" class="w-full" />
+          </div>
+          <div class="col">
+            <div>
+              <div class="section6__title">
+                <span>GABA</span>
+                <img src="./img/section6/heart.png" alt="heart" />
+                <span>洋甘菊</span>
               </div>
-              <div>
-                <img src="./img/dot.png" alt="dot" class="me-3" />
-                <span>療癒洋甘菊 幫助舒緩心情</span>
-              </div>
-              <div>
-                <img src="./img/dot.png" alt="dot" class="me-3" />
-                <span>不只睡得好 更要精神好</span>
+              <h4 class="section6__subtitle">相親相愛，相輔相成</h4>
+              <div class="section6__content">
+                <div>
+                  <img src="./img/dot.png" alt="dot" class="me-3" />
+                  <span>GABA最佳隊友最強輔助</span>
+                </div>
+                <div>
+                  <img src="./img/dot.png" alt="dot" class="me-3" />
+                  <span>療癒洋甘菊 幫助舒緩心情</span>
+                </div>
+                <div>
+                  <img src="./img/dot.png" alt="dot" class="me-3" />
+                  <span>不只睡得好 更要精神好</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="section6__block" style="margin-bottom: 114px">
-          <div>
+        <div class="section6__block row" style="margin-bottom: 114px">
+          <div class="col">
             <h2 class="section6__title">專利西番蓮籽萃取</h2>
             <h5>(N-feruloylputrescine)</h5>
             <h4 class="section6__subtitle">有效提升愉悅程3.27倍</h4>
@@ -501,11 +508,17 @@
               </div>
             </div>
           </div>
-          <img src="./img/section6/composition-2.png" alt="composition-1" />
+          <div class="col">
+            <img src="./img/section6/composition-2.png" alt="composition-1" class="w-full" />
+          </div>
         </div>
-        <div class="d-flex">
-          <img src="./img//section6/credential-1.png" alt="" />
-          <img src="./img//section6/credential-2.png" alt="" />
+        <div class="d-flex row">
+          <div class="col">
+            <img src="./img//section6/credential-1.png" alt="credential-1" class="w-full" />
+          </div>
+          <div class="col">
+            <img src="./img//section6/credential-2.png" alt="credential-2" class="w-full" />
+          </div>
         </div>
       </div>
     </section>
