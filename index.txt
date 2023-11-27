@@ -444,7 +444,7 @@
         <div class="position-relative z-1" style="margin-bottom: 270px; font-size: 28px; font-weight: bold; line-height: 38px; color: #37547e">嘉康利<span style="font-size: 12px; vertical-align: top; line-height: 20px; color: #37547e">Ⓡ</span>睡GABA飲<br />快充上市</div>
         <img class="position-absolute" style="top: 116px" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/product.png" alt="" />
         <div style="color: #37547e; text-align: center">
-          <div style="margin-bottom: 12px; font-size: 20px; font-weight: bold; line-height: 27px">the best /</div>
+          <div style="margin-bottom: 12px; font-size: 20px; font-weight: bold; line-height: 27px">\ the best /</div>
           <div style="font-size: 24px; font-weight: bold; line-height: 33px; margin-bottom: 49px">
             <div>您有多久</div>
             <div>沒有睡個好覺？</div>
@@ -551,7 +551,7 @@
           <div style="display: flex; align-items: center"><img style="margin-right: 8px" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/dot.png" alt="dot" />對健康有益的天然食材配方</div>
         </div>
         <img style="width: 100%; margin-bottom: 20px" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/composition-2.png" alt="" />
-        <div class="d-flex"><img style="width: 50%" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/credential-1_1.png" alt="credential-1" /> <img style="width: 50%" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/credential-2_1.png" alt="credential-2" /></div>
+        <div class="d-flex"><img style="width: 50%" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/credential-1.png" alt="credential-1" /> <img style="width: 50%" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/credential-2.png" alt="credential-2" /></div>
       </section>
       <section class="position-relative text-center" style="padding: 248px 16px 60px; background: #f3f8fb">
         <img class="position-absolute" style="width: 100%; top: 0; left: 0" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/background.png" alt="" />
@@ -624,7 +624,7 @@
           </div>
         </div>
       </section>
-      <section class="position-relative" style="background: #e6e7ea; padding: 50px 40px 100px; overflow: hidden">
+      <section class="position-relative" style="background: #e6e7ea; padding: 50px 36px 100px; overflow: hidden">
         <img class="position-absolute" style="width: 100%; left: 0; bottom: 0" src="https://www.shaklee.com.tw/archive/products/recommend/睡GABA飲商說圖片/手機版/background-2.png" alt="" />
         <div class="text-center" style="font-size: 24px; font-weight: bold; line-height: 32px; color: #37547e; margin-bottom: 30px">你需要嘉康利<span style="font-size: 10px; vertical-align: top; line-height: 15px; color: #37547e">Ⓡ</span>睡GABA飲<br />3大原因</div>
         <div class="position-relative d-flex" style="left: 8%; margin-bottom: 30px">
